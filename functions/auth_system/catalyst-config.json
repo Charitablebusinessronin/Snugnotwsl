@@ -1,0 +1,7 @@
+{
+  "type": "advancedio",
+  "stack": "node20",
+  "deployment": {
+    "stack": "node20"
+  }
+}

@@ -1,1 +1,0 @@
-{"request_type":"add_user","request_details":{"user_details":{"email_id":"user@example.com","first_name":"John","last_name":"Doe","org_id":"acme"}}}

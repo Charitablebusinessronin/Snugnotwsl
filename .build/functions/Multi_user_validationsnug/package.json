@@ -1,0 +1,14 @@
+{
+  "execution": {
+    "main": "index.js"
+  },
+  "deployment": {
+    "stack": "node20",
+    "name": "Multi_user_validationsnug",
+    "type": "basicio"
+  },
+  "dependencies": {
+    "zcatalyst-sdk-node": "latest",
+    "jsonwebtoken": "^9.0.0"
+  }
+}

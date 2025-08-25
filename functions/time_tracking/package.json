@@ -1,0 +1,21 @@
+{
+  "execution": {
+    "main": "index.js"
+  },
+  "deployment": {
+    "stack": "node20",
+    "name": "time_tracking",
+    "type": "advancedio"
+  },
+  "dependencies": {
+    "zcatalyst-sdk-node": "latest",
+    "express": "^4.18.0",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "joi": "^17.9.0",
+    "uuid": "^9.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "moment": "^2.29.4",
+    "decimal.js": "^10.4.3"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "functions": {
+    "targets": [
+      "Multi_user_validationsnug",
+      "auth_system",
+      "service_requests",
+      "provider_matching",
+      "time_tracking",
+      "payment_processing",
+      "notifications",
+      "zoho_integration"
+    ],
+    "sources": [
+      {
+        "name": "Multi_user_validationsnug",
+        "type": "basicio",
+        "path": "functions/Multi_user_validationsnug",
+        "stack": "node20"
+      },
+      {
+        "name": "auth_system",
+        "type": "advancedio",
+        "path": "functions/auth_system",
+        "stack": "node20"
+      },
+      {
+        "name": "service_requests",
+        "type": "advancedio",
+        "path": "functions/service_requests",
+        "stack": "node20"
+      },
+      {
+        "name": "provider_matching",
+        "type": "advancedio",
+        "path": "functions/provider_matching",
+        "stack": "node20"
+      },
+      {
+        "name": "time_tracking",
+        "type": "advancedio",
+        "path": "functions/time_tracking",
+        "stack": "node20"
+      },
+      {
+        "name": "payment_processing",
+        "type": "advancedio",
+        "path": "functions/payment_processing",
+        "stack": "node20"
+      },
+      {
+        "name": "notifications",
+        "type": "advancedio",
+        "path": "functions/notifications",
+        "stack": "node20"
+      },
+      {
+        "name": "zoho_integration",
+        "type": "advancedio",
+        "path": "functions/zoho_integration",
+        "stack": "node20"
+      }
+    ]
+  }
+}

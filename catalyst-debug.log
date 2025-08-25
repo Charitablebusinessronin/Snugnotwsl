@@ -1,0 +1,237 @@
+[debug] [2025-08-25T17:29:30.935Z] : 
+[debug] [2025-08-25T17:29:30.936Z] : ----------------------------------------------------------------------
+[debug] [2025-08-25T17:29:30.936Z] : Command:      /home/ronin/.nvm/versions/node/v20.5.0/bin/node /home/ronin/.nvm/versions/node/v20.5.0/bin/catalyst serve --http 8080
+[debug] [2025-08-25T17:29:30.936Z] : CLI Version:  1.20.2
+[debug] [2025-08-25T17:29:30.937Z] : Platform:     linux
+[debug] [2025-08-25T17:29:30.937Z] : Node Version: v20.5.0
+[debug] [2025-08-25T17:29:30.937Z] : Time:         Mon Aug 25 2025 13:29:30 GMT-0400 (Eastern Daylight Time)
+[debug] [2025-08-25T17:29:30.937Z] : ----------------------------------------------------------------------
+[debug] [2025-08-25T17:29:30.937Z] : 
+[debug] [2025-08-25T17:29:31.125Z] : > authorizing via signed-in user option
+[debug] [2025-08-25T17:29:31.126Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.apigateway.apis.READ","ZohoCatalyst.apigateway.READ","ZohoCatalyst.segments.ALL","ZohoCatalyst.cache.READ","ZohoCatalyst.cache.CREATE","ZohoCatalyst.cache.DELETE","ZohoCatalyst.projects.ALL","ZohoCatalyst.cron.ALL","ZohoCatalyst.zcql.CREATE","ZohoCatalyst.projects.users.READ","ZohoCatalyst.projects.users.CREATE","ZohoCatalyst.projects.users.DELETE","ZohoCatalyst.projects.users.UPDATE","ZohoCatalyst.authentication.CREATE","ZohoCatalyst.email.CREATE","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL","ZohoCatalyst.tables.columns.ALL","ZohoCatalyst.tables.bulk.CREATE","ZohoCatalyst.tables.bulk.READ","ZohoCatalyst.folders.ALL","ZohoCatalyst.files.CREATE","ZohoCatalyst.files.READ","ZohoCatalyst.files.DELETE","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.eventlistners.ALL","ZohoCatalyst.eventlisteners.produce","ZohoCatalyst.security.rules.Read","ZohoCatalyst.security.rules.Update","ZohoCatalyst.notifications.mobile","ZohoCatalyst.notifications.web","ZohoCatalyst.search.READ","ZohoCatalyst.mlkit.READ","QuickML.deployment.READ","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.dataverse.execute","ZohoCatalyst.circuits.execution.DELETE","ZohoCatalyst.circuits.execution.READ","ZohoCatalyst.circuits.execute","ZohoCatalyst.appsail.Read","ZohoCatalyst.jobpool.READ","ZohoCatalyst.job.ALL","ZohoCatalyst.nosql.READ","ZohoCatalyst.nosql.rows.ALL"]
+[debug] [2025-08-25T17:29:31.132Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/30300000000041097 
+
+[debug] [2025-08-25T17:29:31.467Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 25 Aug 2025 17:29:32 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-25T17:29:31.469Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/30300000000041097/environment 
+
+[debug] [2025-08-25T17:29:31.568Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 25 Aug 2025 17:29:32 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-25T17:29:31.722Z] : Build folder already exists, starting cleanup
+[debug] [2025-08-25T17:29:31.730Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/30300000000041097/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic,job"}
+
+[debug] [2025-08-25T17:29:31.844Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 25 Aug 2025 17:29:32 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-25T17:29:31.845Z] : unknown eol undefined hence skipping check
+[debug] [2025-08-25T17:29:31.845Z] : unknown eol undefined hence skipping check
+[debug] [2025-08-25T17:29:31.846Z] : unknown eol undefined hence skipping check
+[debug] [2025-08-25T17:29:31.846Z] : unknown eol undefined hence skipping check
+[debug] [2025-08-25T17:29:31.846Z] : unknown eol undefined hence skipping check
+[debug] [2025-08-25T17:29:31.846Z] : unknown eol undefined hence skipping check
+[debug] [2025-08-25T17:29:31.846Z] : unknown eol undefined hence skipping check
+[debug] [2025-08-25T17:29:31.846Z] : unknown eol undefined hence skipping check
+[debug] [2025-08-25T17:29:31.856Z] : Error serving the resources:  TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at join (node:path:1175:7)
+    at /home/ronin/.nvm/versions/node/v20.5.0/lib/node_modules/zcatalyst-cli/lib/shell/prepare/languages/node.js:39:43
+    at Generator.next (<anonymous>)
+    at /home/ronin/.nvm/versions/node/v20.5.0/lib/node_modules/zcatalyst-cli/lib/shell/prepare/languages/node.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/ronin/.nvm/versions/node/v20.5.0/lib/node_modules/zcatalyst-cli/lib/shell/prepare/languages/node.js:4:12)
+    at /home/ronin/.nvm/versions/node/v20.5.0/lib/node_modules/zcatalyst-cli/lib/shell/prepare/languages/node.js:38:52
+    at Array.map (<anonymous>) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+[error] [2025-08-25T17:29:31.858Z] : ✖ An unexpected error has occurred.
+[debug] [2025-08-25T17:29:31.858Z] : Error Stack: CatalystError: An unexpected error has occurred.
+    at exports.default (/home/ronin/.nvm/versions/node/v20.5.0/lib/node_modules/zcatalyst-cli/lib/errorOut.js:19:17)
+    at Command.<anonymous> (/home/ronin/.nvm/versions/node/v20.5.0/lib/node_modules/zcatalyst-cli/lib/internal/command.js:181:40)
+    at Generator.throw (<anonymous>)
+    at rejected (/home/ronin/.nvm/versions/node/v20.5.0/lib/node_modules/zcatalyst-cli/lib/internal/command.js:29:65)
+[debug] [2025-08-25T17:29:31.858Z] : Original Error: TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at join (node:path:1175:7)
+    at /home/ronin/.nvm/versions/node/v20.5.0/lib/node_modules/zcatalyst-cli/lib/shell/prepare/languages/node.js:39:43
+    at Generator.next (<anonymous>)
+    at /home/ronin/.nvm/versions/node/v20.5.0/lib/node_modules/zcatalyst-cli/lib/shell/prepare/languages/node.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/ronin/.nvm/versions/node/v20.5.0/lib/node_modules/zcatalyst-cli/lib/shell/prepare/languages/node.js:4:12)
+    at /home/ronin/.nvm/versions/node/v20.5.0/lib/node_modules/zcatalyst-cli/lib/shell/prepare/languages/node.js:38:52
+    at Array.map (<anonymous>)
+[debug] [2025-08-25T17:29:31.858Z] : Error Status: 500
+[info] [2025-08-25T17:29:31.859Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[debug] [2025-08-25T17:29:31.859Z] : EXEC ENDED with event: Error (Unexpected), message: The "path" argument must be of type string. Received undefined
+[debug] [2025-08-25T17:29:31.859Z] : TOTAL DURATION OF COMMAND EXEC : 738
+[debug] [2025-08-25T17:29:31.862Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2025-08-25T17:29:33.109Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 25 Aug 2025 17:29:33 GMT","content-length":"0","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-25T17:32:29.841Z] : 
+[debug] [2025-08-25T17:32:29.842Z] : ----------------------------------------------------------------------
+[debug] [2025-08-25T17:32:29.843Z] : Command:      /home/ronin/.nvm/versions/node/v20.5.0/bin/node /home/ronin/.nvm/versions/node/v20.5.0/bin/catalyst serve --http 8080
+[debug] [2025-08-25T17:32:29.843Z] : CLI Version:  1.20.2
+[debug] [2025-08-25T17:32:29.843Z] : Platform:     linux
+[debug] [2025-08-25T17:32:29.843Z] : Node Version: v20.5.0
+[debug] [2025-08-25T17:32:29.844Z] : Time:         Mon Aug 25 2025 13:32:29 GMT-0400 (Eastern Daylight Time)
+[debug] [2025-08-25T17:32:29.844Z] : ----------------------------------------------------------------------
+[debug] [2025-08-25T17:32:29.844Z] : 
+[debug] [2025-08-25T17:32:30.031Z] : > authorizing via signed-in user option
+[debug] [2025-08-25T17:32:30.031Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.apigateway.apis.READ","ZohoCatalyst.apigateway.READ","ZohoCatalyst.segments.ALL","ZohoCatalyst.cache.READ","ZohoCatalyst.cache.CREATE","ZohoCatalyst.cache.DELETE","ZohoCatalyst.projects.ALL","ZohoCatalyst.cron.ALL","ZohoCatalyst.zcql.CREATE","ZohoCatalyst.projects.users.READ","ZohoCatalyst.projects.users.CREATE","ZohoCatalyst.projects.users.DELETE","ZohoCatalyst.projects.users.UPDATE","ZohoCatalyst.authentication.CREATE","ZohoCatalyst.email.CREATE","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL","ZohoCatalyst.tables.columns.ALL","ZohoCatalyst.tables.bulk.CREATE","ZohoCatalyst.tables.bulk.READ","ZohoCatalyst.folders.ALL","ZohoCatalyst.files.CREATE","ZohoCatalyst.files.READ","ZohoCatalyst.files.DELETE","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.eventlistners.ALL","ZohoCatalyst.eventlisteners.produce","ZohoCatalyst.security.rules.Read","ZohoCatalyst.security.rules.Update","ZohoCatalyst.notifications.mobile","ZohoCatalyst.notifications.web","ZohoCatalyst.search.READ","ZohoCatalyst.mlkit.READ","QuickML.deployment.READ","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.dataverse.execute","ZohoCatalyst.circuits.execution.DELETE","ZohoCatalyst.circuits.execution.READ","ZohoCatalyst.circuits.execute","ZohoCatalyst.appsail.Read","ZohoCatalyst.jobpool.READ","ZohoCatalyst.job.ALL","ZohoCatalyst.nosql.READ","ZohoCatalyst.nosql.rows.ALL"]
+[debug] [2025-08-25T17:32:30.037Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/30300000000041097 
+
+[debug] [2025-08-25T17:32:30.408Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 25 Aug 2025 17:32:32 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-25T17:32:30.410Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/30300000000041097/environment 
+
+[debug] [2025-08-25T17:32:30.527Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 25 Aug 2025 17:32:32 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-25T17:32:30.604Z] : Build folder already exists, starting cleanup
+[debug] [2025-08-25T17:32:30.624Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/30300000000041097/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic,job"}
+
+[debug] [2025-08-25T17:32:30.736Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 25 Aug 2025 17:32:32 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-25T17:32:30.738Z] : unknown eol undefined hence skipping check
+[debug] [2025-08-25T17:32:30.738Z] : unknown eol undefined hence skipping check
+[debug] [2025-08-25T17:32:30.738Z] : unknown eol undefined hence skipping check
+[debug] [2025-08-25T17:32:30.738Z] : unknown eol undefined hence skipping check
+[debug] [2025-08-25T17:32:30.738Z] : unknown eol undefined hence skipping check
+[debug] [2025-08-25T17:32:30.738Z] : unknown eol undefined hence skipping check
+[debug] [2025-08-25T17:32:30.738Z] : unknown eol undefined hence skipping check
+[debug] [2025-08-25T17:32:30.738Z] : unknown eol undefined hence skipping check
+[debug] [2025-08-25T17:32:30.747Z] : Error serving the resources:  TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at join (node:path:1175:7)
+    at /home/ronin/.nvm/versions/node/v20.5.0/lib/node_modules/zcatalyst-cli/lib/shell/prepare/languages/node.js:39:43
+    at Generator.next (<anonymous>)
+    at /home/ronin/.nvm/versions/node/v20.5.0/lib/node_modules/zcatalyst-cli/lib/shell/prepare/languages/node.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/ronin/.nvm/versions/node/v20.5.0/lib/node_modules/zcatalyst-cli/lib/shell/prepare/languages/node.js:4:12)
+    at /home/ronin/.nvm/versions/node/v20.5.0/lib/node_modules/zcatalyst-cli/lib/shell/prepare/languages/node.js:38:52
+    at Array.map (<anonymous>) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+[error] [2025-08-25T17:32:30.749Z] : ✖ An unexpected error has occurred.
+[debug] [2025-08-25T17:32:30.749Z] : Error Stack: CatalystError: An unexpected error has occurred.
+    at exports.default (/home/ronin/.nvm/versions/node/v20.5.0/lib/node_modules/zcatalyst-cli/lib/errorOut.js:19:17)
+    at Command.<anonymous> (/home/ronin/.nvm/versions/node/v20.5.0/lib/node_modules/zcatalyst-cli/lib/internal/command.js:181:40)
+    at Generator.throw (<anonymous>)
+    at rejected (/home/ronin/.nvm/versions/node/v20.5.0/lib/node_modules/zcatalyst-cli/lib/internal/command.js:29:65)
+[debug] [2025-08-25T17:32:30.749Z] : Original Error: TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at join (node:path:1175:7)
+    at /home/ronin/.nvm/versions/node/v20.5.0/lib/node_modules/zcatalyst-cli/lib/shell/prepare/languages/node.js:39:43
+    at Generator.next (<anonymous>)
+    at /home/ronin/.nvm/versions/node/v20.5.0/lib/node_modules/zcatalyst-cli/lib/shell/prepare/languages/node.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/ronin/.nvm/versions/node/v20.5.0/lib/node_modules/zcatalyst-cli/lib/shell/prepare/languages/node.js:4:12)
+    at /home/ronin/.nvm/versions/node/v20.5.0/lib/node_modules/zcatalyst-cli/lib/shell/prepare/languages/node.js:38:52
+    at Array.map (<anonymous>)
+[debug] [2025-08-25T17:32:30.749Z] : Error Status: 500
+[info] [2025-08-25T17:32:30.749Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[debug] [2025-08-25T17:32:30.749Z] : EXEC ENDED with event: Error (Unexpected), message: The "path" argument must be of type string. Received undefined
+[debug] [2025-08-25T17:32:30.749Z] : TOTAL DURATION OF COMMAND EXEC : 723
+[debug] [2025-08-25T17:32:30.752Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2025-08-25T17:32:30.976Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 25 Aug 2025 17:32:33 GMT","content-length":"0","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-25T17:38:00.664Z] : 
+[debug] [2025-08-25T17:38:00.665Z] : ----------------------------------------------------------------------
+[debug] [2025-08-25T17:38:00.665Z] : Command:      /home/ronin/.nvm/versions/node/v20.5.0/bin/node /home/ronin/.nvm/versions/node/v20.5.0/bin/catalyst serve --http 8080
+[debug] [2025-08-25T17:38:00.665Z] : CLI Version:  1.20.2
+[debug] [2025-08-25T17:38:00.665Z] : Platform:     linux
+[debug] [2025-08-25T17:38:00.666Z] : Node Version: v20.5.0
+[debug] [2025-08-25T17:38:00.666Z] : Time:         Mon Aug 25 2025 13:38:00 GMT-0400 (Eastern Daylight Time)
+[debug] [2025-08-25T17:38:00.666Z] : ----------------------------------------------------------------------
+[debug] [2025-08-25T17:38:00.666Z] : 
+[debug] [2025-08-25T17:38:00.911Z] : > authorizing via signed-in user option
+[debug] [2025-08-25T17:38:00.911Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.apigateway.apis.READ","ZohoCatalyst.apigateway.READ","ZohoCatalyst.segments.ALL","ZohoCatalyst.cache.READ","ZohoCatalyst.cache.CREATE","ZohoCatalyst.cache.DELETE","ZohoCatalyst.projects.ALL","ZohoCatalyst.cron.ALL","ZohoCatalyst.zcql.CREATE","ZohoCatalyst.projects.users.READ","ZohoCatalyst.projects.users.CREATE","ZohoCatalyst.projects.users.DELETE","ZohoCatalyst.projects.users.UPDATE","ZohoCatalyst.authentication.CREATE","ZohoCatalyst.email.CREATE","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL","ZohoCatalyst.tables.columns.ALL","ZohoCatalyst.tables.bulk.CREATE","ZohoCatalyst.tables.bulk.READ","ZohoCatalyst.folders.ALL","ZohoCatalyst.files.CREATE","ZohoCatalyst.files.READ","ZohoCatalyst.files.DELETE","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.eventlistners.ALL","ZohoCatalyst.eventlisteners.produce","ZohoCatalyst.security.rules.Read","ZohoCatalyst.security.rules.Update","ZohoCatalyst.notifications.mobile","ZohoCatalyst.notifications.web","ZohoCatalyst.search.READ","ZohoCatalyst.mlkit.READ","QuickML.deployment.READ","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.dataverse.execute","ZohoCatalyst.circuits.execution.DELETE","ZohoCatalyst.circuits.execution.READ","ZohoCatalyst.circuits.execute","ZohoCatalyst.appsail.Read","ZohoCatalyst.jobpool.READ","ZohoCatalyst.job.ALL","ZohoCatalyst.nosql.READ","ZohoCatalyst.nosql.rows.ALL"]
+[debug] [2025-08-25T17:38:00.918Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/30300000000041097 
+
+[debug] [2025-08-25T17:38:02.212Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 25 Aug 2025 17:38:04 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-25T17:38:02.214Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/30300000000041097/environment 
+
+[debug] [2025-08-25T17:38:02.311Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 25 Aug 2025 17:38:04 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-25T17:38:02.445Z] : Build folder already exists, starting cleanup
+[debug] [2025-08-25T17:38:02.471Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/30300000000041097/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic,job"}
+
+[debug] [2025-08-25T17:38:02.569Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 25 Aug 2025 17:38:04 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-25T17:38:02.573Z] : unknown eol undefined hence skipping check
+[debug] [2025-08-25T17:38:02.573Z] : unknown eol undefined hence skipping check
+[debug] [2025-08-25T17:38:02.573Z] : unknown eol undefined hence skipping check
+[debug] [2025-08-25T17:38:02.573Z] : unknown eol undefined hence skipping check
+[debug] [2025-08-25T17:38:02.574Z] : unknown eol undefined hence skipping check
+[debug] [2025-08-25T17:38:02.574Z] : unknown eol undefined hence skipping check
+[debug] [2025-08-25T17:38:02.574Z] : unknown eol undefined hence skipping check
+[debug] [2025-08-25T17:38:02.574Z] : unknown eol undefined hence skipping check
+[debug] [2025-08-25T17:38:02.607Z] : Error serving the resources:  TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at join (node:path:1175:7)
+    at /home/ronin/.nvm/versions/node/v20.5.0/lib/node_modules/zcatalyst-cli/lib/shell/prepare/languages/node.js:39:43
+    at Generator.next (<anonymous>)
+    at /home/ronin/.nvm/versions/node/v20.5.0/lib/node_modules/zcatalyst-cli/lib/shell/prepare/languages/node.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/ronin/.nvm/versions/node/v20.5.0/lib/node_modules/zcatalyst-cli/lib/shell/prepare/languages/node.js:4:12)
+    at /home/ronin/.nvm/versions/node/v20.5.0/lib/node_modules/zcatalyst-cli/lib/shell/prepare/languages/node.js:38:52
+    at Array.map (<anonymous>) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+[error] [2025-08-25T17:38:02.610Z] : ✖ An unexpected error has occurred.
+[debug] [2025-08-25T17:38:02.610Z] : Error Stack: CatalystError: An unexpected error has occurred.
+    at exports.default (/home/ronin/.nvm/versions/node/v20.5.0/lib/node_modules/zcatalyst-cli/lib/errorOut.js:19:17)
+    at Command.<anonymous> (/home/ronin/.nvm/versions/node/v20.5.0/lib/node_modules/zcatalyst-cli/lib/internal/command.js:181:40)
+    at Generator.throw (<anonymous>)
+    at rejected (/home/ronin/.nvm/versions/node/v20.5.0/lib/node_modules/zcatalyst-cli/lib/internal/command.js:29:65)
+[debug] [2025-08-25T17:38:02.610Z] : Original Error: TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at join (node:path:1175:7)
+    at /home/ronin/.nvm/versions/node/v20.5.0/lib/node_modules/zcatalyst-cli/lib/shell/prepare/languages/node.js:39:43
+    at Generator.next (<anonymous>)
+    at /home/ronin/.nvm/versions/node/v20.5.0/lib/node_modules/zcatalyst-cli/lib/shell/prepare/languages/node.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/ronin/.nvm/versions/node/v20.5.0/lib/node_modules/zcatalyst-cli/lib/shell/prepare/languages/node.js:4:12)
+    at /home/ronin/.nvm/versions/node/v20.5.0/lib/node_modules/zcatalyst-cli/lib/shell/prepare/languages/node.js:38:52
+    at Array.map (<anonymous>)
+[debug] [2025-08-25T17:38:02.610Z] : Error Status: 500
+[info] [2025-08-25T17:38:02.610Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[debug] [2025-08-25T17:38:02.611Z] : EXEC ENDED with event: Error (Unexpected), message: The "path" argument must be of type string. Received undefined
+[debug] [2025-08-25T17:38:02.611Z] : TOTAL DURATION OF COMMAND EXEC : 1705
+[debug] [2025-08-25T17:38:02.615Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2025-08-25T17:38:02.845Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 25 Aug 2025 17:38:04 GMT","content-length":"0","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-25T17:40:21.359Z] : 
+[debug] [2025-08-25T17:40:21.360Z] : ----------------------------------------------------------------------
+[debug] [2025-08-25T17:40:21.360Z] : Command:      /home/ronin/.nvm/versions/node/v20.5.0/bin/node /home/ronin/.nvm/versions/node/v20.5.0/bin/catalyst serve --http 8080 --verbose
+[debug] [2025-08-25T17:40:21.360Z] : CLI Version:  1.20.2
+[debug] [2025-08-25T17:40:21.361Z] : Platform:     linux
+[debug] [2025-08-25T17:40:21.361Z] : Node Version: v20.5.0
+[debug] [2025-08-25T17:40:21.361Z] : Time:         Mon Aug 25 2025 13:40:21 GMT-0400 (Eastern Daylight Time)
+[debug] [2025-08-25T17:40:21.361Z] : ----------------------------------------------------------------------
+[debug] [2025-08-25T17:40:21.362Z] : 

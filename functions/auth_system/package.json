@@ -1,0 +1,28 @@
+{
+  "name": "auth_system",
+  "version": "1.0.0",
+  "description": "Authentication system for Snug & Kisses Healthcare Platform",
+  "main": "index.js",
+  "dependencies": {
+    "zcatalyst-sdk-node": "^3.0.3",
+    "express": "^4.18.0",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.0",
+    "joi": "^17.9.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "catalyst",
+    "authentication",
+    "healthcare",
+    "zoho"
+  ],
+  "author": "Snug & Kisses Team",
+  "license": "ISC"
+}
