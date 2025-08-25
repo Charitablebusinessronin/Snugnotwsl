@@ -1,0 +1,24 @@
+{
+  "development": {
+    "catalyst": {
+      "environment": "development",
+      "debug": true,
+      "logLevel": "debug"
+    },
+    "database": {
+      "enableAuditLogs": true,
+      "enablePHIValidator": true,
+      "encryptionLevel": "high"
+    },
+    "security": {
+      "enableMFA": false,
+      "sessionTimeout": 3600,
+      "passwordPolicy": "standard"
+    },
+    "features": {
+      "enableAnalytics": true,
+      "enableNotifications": true,
+      "enableRealtimeUpdates": true
+    }
+  }
+}

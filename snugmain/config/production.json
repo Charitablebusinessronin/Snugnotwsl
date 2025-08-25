@@ -1,0 +1,29 @@
+{
+  "production": {
+    "catalyst": {
+      "environment": "production",
+      "debug": false,
+      "logLevel": "error"
+    },
+    "database": {
+      "enableAuditLogs": true,
+      "enablePHIValidator": true,
+      "encryptionLevel": "maximum"
+    },
+    "security": {
+      "enableMFA": true,
+      "sessionTimeout": 1800,
+      "passwordPolicy": "strict"
+    },
+    "features": {
+      "enableAnalytics": true,
+      "enableNotifications": true,
+      "enableRealtimeUpdates": true
+    },
+    "compliance": {
+      "enableHIPAAAudit": true,
+      "enableSecurityMonitoring": true,
+      "enableIncidentReporting": true
+    }
+  }
+}
